@@ -15,7 +15,7 @@ Key Features of the Custom _printf Function:
         %o: Octal number
         %x and %X: Unsigned hexadecimal (lowercase and uppercase)
 
-    Custom Conversion Specifiers: The custom _printf function will also handle some custom conversion specifiers:
+   % Custom Conversion Specifiers: The custom _printf function will also handle some custom conversion specifiers:
         %b: The unsigned int argument will be converted to binary representation.
         %S: Strings with non-printable characters (ASCII value < 32 or >= 127) will be printed as "\x" followed by the ASCII code value in hexadecimal (uppercase - always 2 characters).
         %r: Reverses the string and prints it.
