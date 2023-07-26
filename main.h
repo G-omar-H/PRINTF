@@ -1,11 +1,9 @@
 #ifndef MAIN_H
 # define MAIN_H
 
-# include <stdio.h>
 # include <stdarg.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include <limits.h>
 
 #define BUFFER_SIZE 1024
 # define LHEX "0123456789abcdef"
@@ -28,4 +26,5 @@ int		count_numb_hex(unsigned long int n);
 int     s_to_hex(char *str);
 int		char_to_hex(char c);
 int     check_format(va_list input, const char c);
+int     count_m(const char *format);
 #endif
